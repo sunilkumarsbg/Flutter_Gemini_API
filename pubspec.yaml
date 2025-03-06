@@ -29,7 +29,7 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/profile.jpeg"
+  image_path: "assets/images/profile.png"
 
   flutter_lints: ^3.0.0
 
@@ -39,7 +39,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/images/bg_image.jpg
      - assets/images/send_icon.png
      - assets/dot_loader.json
      - assets/logo1.json

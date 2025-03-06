@@ -3,7 +3,7 @@ import 'package:RachnaAI/ui/widgets/chat_input_field.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../ controllers/chat_controller.dart';
-import 'package:flutter_windowmanager/flutter_windowmanager.dart';
+// import 'package:flutter_windowmanager/flutter_windowmanager.dart';
 
 class ChatScreen extends StatefulWidget {
   const ChatScreen({super.key});
@@ -16,7 +16,7 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     final controller = Get.find<ChatController>();
     // Prevent screenshots when app starts
-    FlutterWindowManager.addFlags(FlutterWindowManager.FLAG_SECURE);
+    // FlutterWindowManager.addFlags(FlutterWindowManager.FLAG_SECURE);
     return Scaffold(
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(60.0),

@@ -8,7 +8,7 @@ class ChatController extends GetxController {
   final RxBool isLoading = false.obs;
   RxString errorMessage = ''.obs;
   final String _baseUrl =
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDzFFONJsAy3xBL5mGpMYjaFFyZU_3tabY';
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=API_Key';
   List<ChatMessage> get messages => _messages.reversed.toList();
 
   Future<void> sendMessage(String message) async {
